@@ -1,0 +1,65 @@
+    1  mkdir ~/week1
+    2  cd ~/week1
+    3  touch ex1.txt
+    4  exit
+    5  sudo apt update
+    6  sudo apt install telegram
+    7  sudo apt install snapd
+    8  sudo snap install telegram-desktop
+    9  cd ~/week1
+   10  ls /usr/bin | grep "gcc" | sort -r | tail > ex1.txt
+   11  cd
+   12  cd /usr/bin/
+   13  gcc
+   14  sudo apt install gcc
+   15  ls /usr/bin | grep "gcc" | sort -r | tail > ex1.txt
+   16  cd
+   17  ~/week1
+   18  cd ~/week1
+   19  ls /usr/bin | grep "gcc" | sort -r | tail > ex1.txt
+   20  cd
+   21  sudo docker --version
+   22  docker --version
+   23  docker info
+   24  sudo docker info
+   25  cd /usr/bin/sudo snap install docker
+   26  sudo snap install docker
+   27  docker search ubuntu
+   28  sudo search ubuntu
+   29  sudo docker search ubuntu
+   30  sudo docker pull ubuntu
+   31  sudo docker pull ubuntu:18.04
+   32  sudo docker pull debian
+   33  sudo docker pull debian:14.04
+   34  sudo docker images
+   35  sudo docker run hello-world
+   36  sudo docker attach web_container
+   37  sudo docker ps
+   38  sudo  docker run -it -p 9000:80 --name=debian_container1 debian
+   39  sudo docker run -it -p 9000:80 --name=debian_container1 debian
+   40  sudo docker run -it -d -p 9001:80 --name=web_container centos:7
+   41  258adf2f71fba82aa04e5f7e9ebba27b8ad87b0439e9bd7d2bcf7e3c40279d54
+   42  docker run -it -d -p 9001:80 --name=web_container centos:7
+   43  sudo docker run -it -d -p 9001:80 --name=web_container centos:7258adf2f71fba82aa04e5f7e9ebba27b8ad87b0439e9bd7d2bcf7e3c40279d54
+   44  sudo docker run -it -p 9000:80 --name=debian_container1 debian
+   45  sudo docker ps
+   46  sudo docker run -it ubuntu
+   47  useradd -m -s /bin/bash Elvira
+   48  useradd -m -s /bin/bash Elvira passwd Elvira
+   49  useradd -m -s /bin/bash Elvira 
+   50  useradd
+   51  useradd -m -s /bin/bash hakase
+   52  passwd hakase
+   53  sudo useradd -m -s /bin/bash Elvira
+   54  sudo passwd Elvira
+   55  usermod -aG docker Elvira
+   56  sudo usermod -aG docker Elvira
+   57  su - Elvira
+   58  sudo login Elvira
+   59  cd ~/week1
+   60  touch ex3.sh
+   61  sh ex3.sh
+   62  cd
+   63  cd ~/week1
+   64  history > ex22.txt
+   65  history > ex2.txt
