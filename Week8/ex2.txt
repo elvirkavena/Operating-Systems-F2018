@@ -1,0 +1,1 @@
+We have increased ratio when we have many unique numbers and long distance between them.
