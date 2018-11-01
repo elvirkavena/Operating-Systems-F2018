@@ -1,0 +1,2 @@
+First program outputs double "Hello" and one "/n", whereas second one only once with two "/n".
+It happens due to line buffering.
