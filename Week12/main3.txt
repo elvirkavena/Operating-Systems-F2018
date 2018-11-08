@@ -1,0 +1,29 @@
+1024kb
+sync:
+
+real	0m0.011s
+user	0m0.002s
+sys	0m0.004s
+
+async:
+
+real	0m0.008s
+user	0m0.002s
+sys	0m0.003s
+
+			      1073741824  kb
+
+sync:
+
+real	0m0.017s
+user	0m0.002s
+sys	0m0.004s
+
+async:
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.002s
+
+Increasing size of buffer makes difference between sync and async.
+ Asynchronus always faster because it doens't wait for different manipulations.
